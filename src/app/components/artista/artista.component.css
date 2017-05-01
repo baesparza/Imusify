@@ -1,0 +1,60 @@
+.containerfluid {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+.container-fluid {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.background-sky {
+    background-color: rgb(30, 215, 96);
+    background: -webkit-linear-gradient(305deg,rgb(0, 170, 60),rgb(65, 250, 131));
+    background: linear-gradient(145deg,rgb(0, 170, 60),rgb(65, 250, 131));
+    color: #fff;
+    box-sizing: border-box;
+    box-shadow: none;
+    padding: 40px ;
+    position: relative;
+    height: 140px ;
+    margin: 0px !important;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+small{
+    font-size: 14px;
+}
+
+.img-circle{
+  border-radius: 10px;
+}
+
+.container{
+    padding: 20px;
+    margin-top: 0px ;
+}
+
+.btn-spotify{
+    color: #fff;
+    background-color: rgb(30, 215, 96);
+    border-color: rgb(30, 215, 96);
+}
+
+@media (min-width: 992px){
+    .infocontainer{
+        padding: 48px;
+        
+    }
+    .background-sky {
+        padding: 48px ;
+        height: 168px !important;
+    }
+
+}
+
+@media (max-width: 991px){
+    .infocontainer{
+        padding: 10px;
+    }
+}
