@@ -1,8 +1,6 @@
-<div class="card puntero" [routerLink]="['/artista',artista.id]">
+<div class="card puntero animated fadeIn" [routerLink]="['/artista',artista.id]">
     <div class="card-block">
       <img class="card-img img-fluid" [src]="artista.images | sinfoto" [alt]="artista.name ">
       <h4 class="card-title">{{artista.name}}</h4>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
     </div>
   </div>

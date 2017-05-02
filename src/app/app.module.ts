@@ -20,6 +20,7 @@ import { FooterComponent } from './components/general/footer/footer.component';
 import { BuscarComponent } from './components/buscar/buscar.component';
 import { ResultsComponent } from './components/buscar/results/results.component';
 import { HomeComponent } from './components/home/home.component';
+import { DomseguroPipe } from './others/domseguro.pipe';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { HomeComponent } from './components/home/home.component';
     BuscarComponent,
     ResultsComponent,
     HomeComponent,
-    SinfotoPipe
+    SinfotoPipe,
+    DomseguroPipe
   ],
   imports: [
     BrowserModule,

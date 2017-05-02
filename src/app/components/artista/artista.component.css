@@ -22,6 +22,25 @@
     font-size: 28px;
 }
 
+.martop{
+    margin-top: 10px;
+}
+
+.alert {
+    margin: 0px;
+    border-radius: 4px;
+}
+
+.close{
+    color: #fff;
+}
+
+.alert-spotify {
+    color: #fff;
+    background: -webkit-linear-gradient(305deg,rgb(0, 170, 60),rgb(65, 250, 131));
+    border-color: rgba(30, 215, 96, 0.5);
+}
+
 small{
     font-size: 14px;
 }

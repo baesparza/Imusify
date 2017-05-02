@@ -7,10 +7,23 @@
     </div>
   </div>
   <div class="col-md-10">
+
     <h4 class="background-sky">Resultado de busqueda <small>{{ termino | uppercase }}</small></h4>
-    <div class="card-columns">
-      <app-results *ngFor="let _artista of _spotifyService.artistas"
-      [artista]="_artista"></app-results>
+
+    <div class="card-columns animated fadeIn row" *ngIf="_spotifyService.artistas.length == 0; else searched" >
+        <div class="alert" role="alert">
+          No hay resultados para mostrar
+        </div>
     </div>
+
+    <ng-template #searched>
+      <div class="card-columns animated fadeIn fast">
+          <app-results *ngFor="let _artista of _spotifyService.artistas"
+            [artista]="_artista"></app-results>
+      </div>
+    </ng-template>
+
+    <app-footer></app-footer>
+
   </div>
 </div>
